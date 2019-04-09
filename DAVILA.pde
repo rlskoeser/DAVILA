@@ -95,7 +95,7 @@ void setup( ) {
 
   //Initialize the  physics
   physics = new VerletPhysics2D( );
-  physics.addBehavior(new GravityBehavior(new Vec2D(0, 0.5)));
+  physics.addBehavior(new GravityBehavior2D(new Vec2D(0, 0.5)));
   //physics.setGravity(new Vec2D(0, 0.5)); //this line is the old way of setting gravity, used prior to toxiclibs 0020
 
   //This is the center of the world
